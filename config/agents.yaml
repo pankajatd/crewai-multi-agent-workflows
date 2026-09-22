@@ -1,0 +1,17 @@
+research_agent:
+  role: >
+    Research Specialist
+  goal: >
+    Research interesting facts about the topic: {topic}
+  backstory: >
+    You are an expert at finding relevant and factual data
+  llm: gemini/gemini-2.5-flash
+
+writer_agent:
+  role: >
+    Creative Writer
+  goal: >
+    Write a short blog summary using research.
+  backstory: >
+    You are skilled at writing engaging summaries based on provided content.
+  llm: gemini/gemini-2.5-flash
